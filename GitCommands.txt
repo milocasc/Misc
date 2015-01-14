@@ -1,0 +1,17 @@
+# Simple Git repo setup from a mac terminal (assuming the repo is already created on GitHub and ready to pull)
+
+1. cd to local directory and "git init"
+2. "git pull https://github.com/<username>/<repo>.git
+
+# Example for adding a .java file (HelloWorld.java)
+
+3. "git add HelloWorld.java"
+
+# use "git status" to see the working tree status
+
+4. "git commit -m "Add HelloWorld.java"
+5. "git remote add origin https://github.com/<username>/<repo>.git
+
+# use "git remote -v" to verify the new remote (fetch and push)
+
+6. "git push origin master"
